@@ -13,4 +13,4 @@ jobs:
     - name: Build APK
       uses: digreatbrian/buildozer-action@v2
       with:
-        workdir: .
+        work-dir: .
