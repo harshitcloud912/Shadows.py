@@ -18,6 +18,8 @@ fullscreen = 0
 android.api = 33
 android.minapi = 21
 
+android.accept_sdk_license = True
+
 android.permissions = INTERNET
 
 log_level = 2
