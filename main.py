@@ -302,7 +302,6 @@ ScreenManager:
                         size_hint_y: None
                         height: dp(200)
 
-# Fixed context references: changed self.* to root.* to point to the rule instance, not the child MDLabels
 <AttributeEngineRow@MDBoxLayout>:
     orientation: 'horizontal'
     size_hint_y: None
@@ -521,7 +520,7 @@ class GamifiedApp(MDApp):
             if item.get("item_id") == item_id:
                 return 
 
-        if screen.player_coins >= price:
+     j   if screen.player_coins >= price:
             screen.player_coins -= price
             
             purchased_payload = {
@@ -597,3 +596,4 @@ class GamifiedApp(MDApp):
 
 if __name__ == '__main__':
     GamifiedApp().run()
+h
